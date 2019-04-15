@@ -25,10 +25,10 @@ public class HelloController {
         return "success";
     }
 
-    @RequestMapping({"/", "/index.html"})
-    public String index(){
-        return "index";
-
-    }
+//    @RequestMapping({"/", "/index.html"})
+//    public String index(){
+//        return "login";
+//
+//    }
 
 }
